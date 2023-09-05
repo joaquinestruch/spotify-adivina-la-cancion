@@ -12,7 +12,7 @@ const spotifyLinkApi = `
 https://accounts.spotify.com/authorize
 ?client_id=${clientId}
 &response_type=token
-&redirect_uri=http://localhost:5173/play
+&redirect_uri=https://spotify-adivina-la-cancion.vercel.app/play
 &scope=${scopes.join("%20")}
 &state=${crypto.randomUUID()}
 `
