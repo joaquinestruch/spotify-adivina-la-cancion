@@ -5,7 +5,7 @@ import "./selectartist.css";
 import { searchArtist } from "../../scripts/getSearchArtist";
 
 import ArtistTop from "../ArtistTop";
-import Skeletons from "../skeletons";
+import { SkeletonsReact } from "./Skeletons";
 
 
 function SelectArtist() {
@@ -38,7 +38,7 @@ function SelectArtist() {
           );
         })
         
-        :  <Skeletons/>
+        :  <SkeletonsReact/>
             
         }
       </div>

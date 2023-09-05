@@ -9,17 +9,15 @@ const scopes = [
 ];
 
 const spotifyLinkApi = `
-
 https://accounts.spotify.com/authorize
 ?client_id=${clientId}
 &response_type=token
-&redirect_uri=https://bef5-190-30-137-75.ngrok-free.app/play
+&redirect_uri=http://localhost:5173/play
 &scope=${scopes.join("%20")}
 &state=${crypto.randomUUID()}
 `
 
 function BtnLogin({text}) {
-
   return (
     <a className="btn-login" href={spotifyLinkApi} > <BsSpotify/> {text}</a>
   )
