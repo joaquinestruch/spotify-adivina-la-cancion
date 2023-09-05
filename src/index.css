@@ -1,0 +1,9 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --green-spotfiy: #1ed760; 
+  --second-color-main: #18181c;
+}

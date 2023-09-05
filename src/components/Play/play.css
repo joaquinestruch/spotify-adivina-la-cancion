@@ -1,0 +1,10 @@
+.header-play{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: #111112;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    font-family: font-main-bold;
+}

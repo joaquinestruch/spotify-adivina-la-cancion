@@ -1,0 +1,26 @@
+.user-profile-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & img{
+        height: 40px;
+        width: 40px;
+        object-fit: contain;
+        border-radius: 50%;
+        background-color: var(--green-spotfiy);
+        padding: 3px;
+    }
+
+
+}
+
+.logo-header{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    background-color: #18181c;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
