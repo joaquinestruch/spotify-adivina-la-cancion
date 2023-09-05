@@ -131,14 +131,16 @@
         background-color: #101011;
         padding: 10px;
         border-radius: 20px;
-        overflow: hidden;
+        
+
+
         & img{
             height: 300px;
             width: 500px;
             object-fit: cover;
             border-radius: 20px;
             max-width: 90%;
-            overflow: hidden;
+            
         }
 
     }
